@@ -1,10 +1,14 @@
 @font-face {
-  font-family: 'Aquatico';
-  src: url('./assets/Aquatico-Regular.otf') format('Opentype');
+  font-family: 'Aquire';
+  src: url('./assets/AquireLight-YzE0o.otf') format('Opentype');
 }
-
-a {
-  font-family: 'Aquatico', sans-serif;
+nav a {
+  font-size: 1.3rem;
+}
+a,
+h1,
+h3 {
+  font-family: 'Aquire', sans-serif;
   color: black;
 }
 

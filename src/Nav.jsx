@@ -16,7 +16,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="w-full sticky py-5 pr-10 flex flex-col items-end md:flex-row md:justify-evenly md:pr-0">
+    <nav className="w-full absolute top-0 py-5 pr-10 flex flex-col items-end md:static md:flex-row md:justify-evenly md:pr-0">
       <a className="hidden md:block">HOME</a>
       <a className="hidden md:block">ABOUT</a>
       <a className="hidden md:block">WORKS</a>
