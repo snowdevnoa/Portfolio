@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Aquatico';
+  src: url('./assets/Aquatico-Regular.otf') format('Opentype');
+}
+
+a {
+  font-family: 'Aquatico', sans-serif;
+  color: black;
+}
+
+a:hover {
+  color: rgb(125, 92, 179);
+  cursor: pointer;
+}
+
+.mini-menu a {
+  margin-top: 40px;
+}

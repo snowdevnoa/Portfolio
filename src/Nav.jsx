@@ -1,10 +1,33 @@
+import { useState } from 'react';
+
 function Navbar() {
-  return (
-    <nav className="w-full py-5 flex justify-evenly">
+  const [miniMenu, setMiniMenu] = useState(false);
+  let hamburgerMenu = (
+    <div className="md:hidden flex flex-col mr-20px text-lg mini-menu">
       <a>HOME</a>
       <a>ABOUT</a>
-      <a>WORKS</a>
+      <a>wORKS</a>
       <a>CONTACT</a>
+    </div>
+  );
+
+  function toggleMenu() {
+    miniMenu ? setMiniMenu(false) : setMiniMenu(true);
+  }
+
+  return (
+    <nav className="w-full sticky py-5 pr-10 flex flex-col items-end md:flex-row md:justify-evenly md:pr-0">
+      <a className="hidden md:block">HOME</a>
+      <a className="hidden md:block">ABOUT</a>
+      <a className="hidden md:block">WORKS</a>
+      <a className="hidden md:block">CONTACT</a>
+      <img
+        src="./assets/react.svg"
+        alt="Hamburger Icon"
+        className="mr-10px md:hidden hover:cursor-pointer"
+        onClick={toggleMenu}
+      />
+      {miniMenu ? hamburgerMenu : null}
     </nav>
   );
 }
