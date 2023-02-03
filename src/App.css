@@ -20,3 +20,8 @@ a:hover {
 .mini-menu a {
   margin-top: 40px;
 }
+
+.socials a svg {
+  width: 35px;
+  height: 35px;
+}
