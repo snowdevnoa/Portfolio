@@ -1,6 +1,6 @@
 function Bio() {
   return (
-    <div className="h-80 flex flex-wrap justify-evenly flex-row-reverse">
+    <div className="flex flex-wrap justify-evenly flex-row-reverse min-h-[60vh]">
       <div>
         <img src="" alt="Profile Picture" />
         <div className="mt-10 flex socials justify-around w-48">
