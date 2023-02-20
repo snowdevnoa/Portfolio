@@ -1,0 +1,38 @@
+export default [
+  {
+    id: 1,
+    name: 'Example 1',
+    tag: 'Open Source',
+    img: '',
+    shortDescription: '',
+    tools: ['HTML/CSS', 'JS', 'React'],
+    visible: true,
+  },
+  {
+    id: 2,
+    name: 'Example 2',
+    tag: 'Personal',
+    img: '',
+    shortDescription: '',
+    tools: ['HTML/CSS', 'JS', 'React.JS'],
+    visible: true,
+  },
+  {
+    id: 3,
+    name: 'Example 3',
+    tag: 'Design',
+    img: '',
+    shortDescription: '',
+    tools: ['HTML/CSS', 'JS', 'React'],
+    visible: true,
+  },
+  {
+    id: 4,
+    name: 'Example 4',
+    tag: 'Design',
+    img: '',
+    shortDescription: '',
+    tools: ['HTML/CSS', 'JS', 'React'],
+    visible: true,
+  },
+];

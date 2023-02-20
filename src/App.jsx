@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Nav.jsx';
 import Intro from './Intro.jsx';
 import Bio from './Bio.jsx';
-import Projects from './Projects';
+import Projects from './Projects.jsx';
 
 function App() {
   return (

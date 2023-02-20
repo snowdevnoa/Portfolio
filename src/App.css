@@ -25,3 +25,12 @@ a:hover {
   width: 35px;
   height: 35px;
 }
+
+.project-type {
+  font-family: 'Aquire';
+}
+
+.project-type:hover {
+  color: rgb(125, 92, 179);
+  cursor: pointer;
+}
