@@ -15,7 +15,7 @@ function Projects() {
     </button>
   ));
 
-  // Default will display all projects unless type is clicked then component will rerender with given type
+  // Default will display all projects unless type is clicked. Then component will rerender with the new given type
   const [works, setWorks] = useState(data);
 
   const allWorks = works.map((work) => (
@@ -24,8 +24,10 @@ function Projects() {
       title={work.name}
       description={work.shortDescription}
       tools={work.tools}
+      link={work.link}
       type={work.tag}
       status={work.visible}
+      image={work.img}
     />
   ));
 
@@ -43,11 +45,11 @@ function Projects() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center text-center">
+    <div className="min-h-screen flex flex-col items-center text-center mt-10">
       <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly">
         {uiTypes}
       </div>
-      <div>{allWorks}</div>
+      <div className="projects">{allWorks}</div>
     </div>
   );
 }

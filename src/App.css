@@ -34,3 +34,21 @@ a:hover {
   color: rgb(125, 92, 179);
   cursor: pointer;
 }
+
+/* Grid style for Projects' section */
+
+.projects {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 1rem;
+}
+
+.projects > div {
+  border: black 1px solid;
+  border-radius: 10px;
+}
