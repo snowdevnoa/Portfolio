@@ -5,11 +5,10 @@
 nav a {
   font-size: 1.3rem;
 }
-a,
-h1,
-h3 {
-  font-family: 'Aquire', sans-serif;
-  color: black;
+
+.intro,
+nav a {
+  font-family: 'Aquire';
 }
 
 a:hover {
@@ -48,7 +47,12 @@ a:hover {
   grid-gap: 1rem;
 }
 
-.projects > div {
-  border: black 1px solid;
+@media only screen and (max-width: 400px) {
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+.projects > a {
   border-radius: 10px;
 }

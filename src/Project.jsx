@@ -23,32 +23,39 @@ function Project(props) {
   };
 
   const contentStyles = {
-    backgroundColor: isHovered ? 'rgba(179, 194, 213, 0.5)' : 'transparent',
+    backgroundColor: isHovered ? 'rgba(38, 42, 47, 0.5)' : 'transparent',
+    color: 'white',
   };
 
+  const uiTools = props.tools.map((tool) => (
+    <span className="mr-5">{tool}</span>
+  ));
+
   return (
-    <div
+    <a
       style={styles}
       className="flex-col px-4 py-2 text-left relative"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      href={props.link}
+      target="_blank"
     >
       {isHovered && (
         <div
           style={contentStyles}
-          className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-start p-4 text-left"
+          className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-start p-4 text-left font-sans"
         >
-          <h1>
+          <h1 className="text-lg">
             Hello, this project is {props.title} and is a {props.type}
           </h1>
-          {props.description}
+          <p className="mt-10">{props.description}</p>
           <div className="mt-[auto]">
             <h4>Tools:</h4>
-            {props.tools}
+            {uiTools}
           </div>
         </div>
       )}
-    </div>
+    </a>
   );
 }
 

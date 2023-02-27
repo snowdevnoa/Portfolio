@@ -45,7 +45,7 @@ function Bio() {
           </a>
         </div>
       </div>
-      <p className="px-10 text-center md:w-3/5 md:px-0 md:text-left">
+      <p className="px-10 text-center md:w-3/5 md:px-0 md:text-left font-sans">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

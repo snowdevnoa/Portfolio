@@ -7,7 +7,7 @@ export default [
     shortDescription:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     tools: ['HTML/CSS', 'JS', 'React'],
-    link: '',
+    link: 'https://youtube.com',
     visible: true,
   },
   {

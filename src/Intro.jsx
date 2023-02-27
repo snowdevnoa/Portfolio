@@ -1,6 +1,6 @@
 function Intro() {
   return (
-    <div className="min-h-screen flex flex-wrap md:flex-no-wrap">
+    <div className="min-h-screen flex flex-wrap md:flex-no-wrap intro">
       <div className="w-full md:w-3/5 flex justify-center items-center">
         NEW PORTFOLIO UNDER CONSTRUCTION
       </div>
