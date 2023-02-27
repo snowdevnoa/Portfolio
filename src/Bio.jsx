@@ -2,7 +2,7 @@ function Bio() {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="flex justify-center flex-wrap flex-row-reverse">
-        <div className="mb-[20px] md:ml-[20px] md:mb-0">
+        <div className="mb-[2rem] md:ml-[3.5rem] md:mb-0">
           <img src="" alt="Profile Picture" />
           <div className="mt-10 flex socials justify-around w-48">
             <a href="https://github.com/snowdevnoa" target="_blank">
