@@ -45,7 +45,10 @@ function Projects() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center text-center mt-10">
+    <div
+      className="min-h-screen flex flex-col items-center text-center mt-10"
+      id="projects"
+    >
       <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly">
         {uiTypes}
       </div>
