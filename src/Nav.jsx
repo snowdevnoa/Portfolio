@@ -6,7 +6,7 @@ function Navbar() {
     <div className="absolute md:hidden flex flex-col mr-20px text-lg h-screen justify-around text-center mini-menu">
       <a>HOME</a>
       <a>ABOUT</a>
-      <a>wORKS</a>
+      <a>WORKS</a>
       <a>CONTACT</a>
     </div>
   );
