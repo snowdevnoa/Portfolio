@@ -4,7 +4,7 @@ function Bio() {
       <div className="flex justify-center flex-wrap flex-row-reverse">
         <div className="mb-[2rem] md:ml-[3.5rem] md:mb-0">
           <img
-            src="../public/pfp.jpg"
+            src="./pfp.jpg"
             alt="Profile Picture"
             className="w-auto h-[20rem] rounded-full"
           />
