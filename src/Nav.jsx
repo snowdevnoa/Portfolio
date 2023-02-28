@@ -24,7 +24,7 @@ function Navbar() {
       <img
         src="./assets/react.svg"
         alt="Hamburger Icon"
-        className="mr-10px md:hidden hover:cursor-pointer"
+        className="mr-10px md:hidden hover:cursor-pointer z-20"
         onClick={toggleMenu}
       />
       {miniMenu ? hamburgerMenu : null}
