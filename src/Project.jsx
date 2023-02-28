@@ -23,8 +23,9 @@ function Project(props) {
   };
 
   const contentStyles = {
-    backgroundColor: isHovered ? 'rgba(38, 42, 47, 0.5)' : 'transparent',
+    backgroundColor: isHovered ? 'rgba(26, 29, 33, 0.5)' : 'transparent',
     color: 'white',
+    borderRadius: '10px',
   };
 
   const uiTools = props.tools.map((tool) => (
@@ -43,12 +44,10 @@ function Project(props) {
       {isHovered && (
         <div
           style={contentStyles}
-          className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-start p-4 text-left font-sans"
+          className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-start p-4 text-left"
         >
-          <h1 className="text-lg">
-            Hello, this project is {props.title} and is a {props.type}
-          </h1>
-          <p className="mt-10">{props.description}</p>
+          <h1 className="text-xl font-semibold">{props.title}</h1>
+          <p className="mt-10 text-sm">{props.description}</p>
           <div className="mt-[auto]">
             <h4>Tools:</h4>
             {uiTools}

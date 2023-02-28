@@ -3,8 +3,12 @@ function Bio() {
     <div className="flex justify-center items-center min-h-screen">
       <div className="flex justify-center flex-wrap flex-row-reverse">
         <div className="mb-[2rem] md:ml-[3.5rem] md:mb-0">
-          <img src="" alt="Profile Picture" />
-          <div className="mt-10 flex socials justify-around w-48">
+          <img
+            src="../public/pfp.jpg"
+            alt="Profile Picture"
+            className="w-auto h-[20rem] rounded-full"
+          />
+          <div className="mt-10 flex socials justify-around">
             <a href="https://github.com/snowdevnoa" target="_blank">
               <svg
                 viewBox="0 0 50 50"
@@ -46,15 +50,31 @@ function Bio() {
             </a>
           </div>
         </div>
-        <p className="px-10 text-center md:w-3/5 md:px-0 md:text-left font-sans">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div className="flex flex-col justify-center px-10 text-center md:w-3/5 md:px-0 md:text-left text-base">
+          <p>
+            Hi there, I'm Noa! As a front-end developer, I'm passionate about
+            building engaging web applications that help solve real-world
+            problems. When I'm not coding, I love spending time on my hobbies,
+            which include character design, motorcycling, and reading novels.
+          </p>
+          <p className="mt-4">
+            One of my favorite things about front-end development is the way it
+            allows me to combine creativity with technical skill. Whether I'm
+            designing a user interface, working with APIs, or optimizing website
+            performance, I always strive to find elegant solutions that balance
+            form and function.
+          </p>
+          <p className="mt-4">
+            In my free time, you'll often find me sketching new character
+            designs or exploring the open road on my motorcycle. I'm also an
+            avid reader of novels, particularly science fiction and fantasy.
+          </p>
+          <p className="mt-4">
+            Overall, I'm excited to continue honing my skills as a front-end
+            developer and collaborating with others to create innovative and
+            user-friendly web experiences.
+          </p>
+        </div>
       </div>
     </div>
   );

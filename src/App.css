@@ -1,14 +1,12 @@
-@font-face {
-  font-family: 'Aquire';
-  src: url('./assets/AquireLight-YzE0o.otf') format('Opentype');
-}
-nav a {
-  font-size: 1.3rem;
+* {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 300;
 }
 
-.intro,
 nav a {
-  font-family: 'Aquire';
+  font-size: 1.3rem;
 }
 
 a:hover {
@@ -23,10 +21,6 @@ a:hover {
 .socials a svg {
   width: 35px;
   height: 35px;
-}
-
-.project-type {
-  font-family: 'Aquire';
 }
 
 .project-type:hover {
