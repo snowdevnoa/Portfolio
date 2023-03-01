@@ -50,3 +50,13 @@ a:hover {
 .projects > a {
   border-radius: 10px;
 }
+
+/* Animations */
+.animate-hide {
+  opacity: 0;
+  transition: ease-in-out 1s;
+}
+
+.animate-show {
+  opacity: 1;
+}

@@ -35,7 +35,7 @@ function Project(props) {
   return (
     <a
       style={styles}
-      className="flex-col px-4 py-2 text-left relative"
+      className="flex-col px-4 py-2 text-left relative animate-hide"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       href={props.link}

@@ -1,7 +1,7 @@
 function Bio() {
   return (
     <div className="flex justify-center items-center min-h-screen" id="bio">
-      <div className="flex justify-center flex-wrap flex-row-reverse">
+      <div className="flex justify-center flex-wrap flex-row-reverse animate-hide">
         <div className="mb-[2rem] md:ml-[3.5rem] md:mb-0">
           <img
             src="./pfp.jpg"
