@@ -1,7 +1,7 @@
 function Intro() {
   return (
     <div className="min-h-screen flex flex-wrap md:flex-no-wrap intro">
-      <div className="w-full md:w-3/5 flex justify-center items-center">
+      <div className="w-full md:w-3/5 flex justify-center items-center animate-hide">
         NEW PORTFOLIO UNDER CONSTRUCTION
       </div>
       <div className="w-full md:w-2/5 flex flex-col justify-center items-center animate-hide">

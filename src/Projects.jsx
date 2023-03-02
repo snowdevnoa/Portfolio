@@ -49,7 +49,7 @@ function Projects() {
       className="min-h-screen flex flex-col items-center text-center mt-10"
       id="projects"
     >
-      <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly">
+      <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly animate-hide">
         {uiTypes}
       </div>
       <div className="projects">{allWorks}</div>

@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <div id="contact" className="h-[400px] flex justify-center items-center">
+    <div
+      id="contact"
+      className="min-h-screen flex justify-center items-center animate-hide"
+    >
       FORM IN PROGRESS
     </div>
   );
