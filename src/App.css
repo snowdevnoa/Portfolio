@@ -96,7 +96,7 @@ form label {
   margin-bottom: 7px;
 }
 
-form button {
+form button[type='submit'] {
   margin-top: 1rem;
   background: linear-gradient(
     to left,
