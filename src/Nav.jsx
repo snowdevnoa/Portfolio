@@ -3,11 +3,13 @@ import { useState } from 'react';
 function Navbar() {
   const [miniMenu, setMiniMenu] = useState(false);
   let hamburgerMenu = (
-    <div className="absolute md:hidden flex flex-col mr-20px text-lg h-screen justify-around text-center mini-menu">
+    <div className="absolute md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-around text-center mini-menu">
+      <a onClick={() => scrollToSection('contact')} className="contact">
+        say hello!
+      </a>
       <a onClick={() => scrollToSection('home')}>HOME</a>
       <a onClick={() => scrollToSection('bio')}>ABOUT</a>
       <a onClick={() => scrollToSection('projects')}>WORKS</a>
-      <a onClick={() => scrollToSection('contact')}>CONTACT</a>
     </div>
   );
 
@@ -21,7 +23,8 @@ function Navbar() {
   }
 
   return (
-    <nav className="w-full sticky top-0 py-5 pr-2 flex flex-col items-end md:absolute md:flex-row md:justify-evenly md:pr-0 z-10">
+    <nav className="w-full sticky top-0 py-5 px-[2rem] flex flex-col items-end md:absolute md:flex-row md:justify-end md:pr-0 z-10">
+      <img src="" alt="logo" className="mr-[auto] hidden md:block" />
       <a className="hidden md:block" onClick={() => scrollToSection('home')}>
         HOME
       </a>
@@ -34,8 +37,11 @@ function Navbar() {
       >
         WORKS
       </a>
-      <a className="hidden md:block" onClick={() => scrollToSection('contact')}>
-        CONTACT
+      <a
+        className="hidden md:block contact"
+        onClick={() => scrollToSection('contact')}
+      >
+        say hello!
       </a>
       <img
         src=""

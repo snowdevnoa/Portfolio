@@ -31,13 +31,14 @@ function Projects() {
     />
   ));
 
-  function displayProjectType(id) {
-    console.log(id);
+  function displayProjectType(projectType) {
+    console.log(projectType);
     setWorks((prevWorks) => {
       let newWorks = prevWorks.map((work) => {
         return {
           ...work,
-          visible: work.tag === id || id === 'All' ? true : false,
+          visible:
+            work.tag === projectType || projectType === 'All' ? true : false,
         };
       });
       return newWorks;
