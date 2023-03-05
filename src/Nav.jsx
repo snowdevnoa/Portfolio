@@ -43,12 +43,19 @@ function Navbar() {
       >
         say hello!
       </a>
-      <img
-        src=""
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50 50"
         alt="Hamburger Icon"
-        className="mr-10px md:hidden hover:cursor-pointer z-20"
+        className="mr-10px md:hidden hover:cursor-pointer z-20 h-[4rem]"
         onClick={toggleMenu}
-      />
+      >
+        <path
+          fill="#231F20"
+          d="M8.667 15h30a1 1 0 100-2h-30a1 1 0 100 2zM8.667 37h30a1 1 0 100-2h-30a1 1 0 100 2zM8.667 26h30a1 1 0 100-2h-30a1 1 0 100 2z"
+        />
+      </svg>
+
       {miniMenu ? hamburgerMenu : null}
     </nav>
   );
