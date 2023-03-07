@@ -45,6 +45,17 @@ export default [
   },
   {
     id: 5,
+    name: 'Simple Form Validation',
+    tag: 'Personal',
+    img: './projectImages/form-validation.PNG',
+    shortDescription:
+      'Form Validator is a Javascript project designed to validate user input in a web form. It uses regular expressions to ensure that data entered in fields such as name, email, phone number, and zipcode meet specific requirements. This project also utilizes the Bootstrap framework for creating a responsive and visually appealing user interface.',
+    tools: ['HTML/CSS', 'JS', 'Bootstrap', 'RegEx'],
+    link: 'https://snowdevnoa.github.io/Form-Validation/',
+    visible: true,
+  },
+  {
+    id: 6,
     name: 'Number Guesser Game',
     tag: 'Personal',
     img: './projectImages/number-guesser.PNG',
@@ -52,6 +63,17 @@ export default [
       "Number Guesser Game is a beginner-level Javascript project that involves guessing a random number within a specified range. It features basic logic functionality such as generating a random number, evaluating user's guesses, tracking attempts, and displaying win/lose messages. This project is a great way for beginners to practice using variables, conditional statements, functions, and event listeners in Javascript. ",
     tools: ['HTML/CSS', 'JS'],
     link: 'https://snowdevnoa.github.io/Number-Guess/',
+    visible: true,
+  },
+  {
+    id: 7,
+    name: 'Rick & Morty Universe Finder',
+    tag: 'Personal',
+    img: './projectImages/rick-morty.PNG',
+    shortDescription:
+      "Rick and Morty Universe Finder is a fun and interactive project that allows users to search for their favorite characters from the popular TV show. Utilizing the Rick and Morty API and implementing classes for the UI, this project allows users to enter the name of the character they're looking for, and then displays a grid of matching characters with their images and relevant information. This project is a great way to practice working with APIs, implementing class-based UI, and handling user input in a creative way",
+    tools: ['HTML/CSS', 'JS', 'Rick & Morty API'],
+    link: 'https://snowdevnoa.github.io/Rick-Morty-Universe/',
     visible: true,
   },
 ];

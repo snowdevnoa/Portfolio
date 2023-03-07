@@ -1,3 +1,5 @@
+// import ThreeScene from './ThreeScene';
+
 function Intro() {
   return (
     <div className="min-h-screen flex flex-wrap md:flex-no-wrap intro">
