@@ -71,7 +71,7 @@ export default [
     tag: 'Personal',
     img: './projectImages/rick-morty.PNG',
     shortDescription:
-      "Rick and Morty Universe Finder is a fun and interactive project that allows users to search for their favorite characters from the popular TV show. Utilizing the Rick and Morty API and implementing classes for the UI, this project allows users to enter the name of the character they're looking for, and then displays a grid of matching characters with their images and relevant information. This project is a great way to practice working with APIs, implementing class-based UI, and handling user input in a creative way",
+      "Rick and Morty Universe Finder is a fun and interactive project that allows users to search for their favorite characters from the popular TV show. Utilizing the Rick and Morty API and implementing classes for the UI, this project allows users to enter the name of the character they're looking for, and then displays a grid of matching characters with their images and relevant information.",
     tools: ['HTML/CSS', 'JS', 'Rick & Morty API'],
     link: 'https://snowdevnoa.github.io/Rick-Morty-Universe/',
     visible: true,
