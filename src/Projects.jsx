@@ -6,13 +6,11 @@ import { PROJECT_TYPES } from './constants.js';
 function Projects() {
   // To display the four main types of projects
   const uiTypes = PROJECT_TYPES.map((type) => (
-    <button
-      className="mb-4 w-full md:w-1/2 lg:w-1/4 project-type"
-      key={type}
-      onClick={() => displayProjectType(type)}
-    >
-      {type}
-    </button>
+    <div className='className="mb-4 w-full md:w-1/2 lg:w-1/4 project-type'>
+      <button key={type} onClick={() => displayProjectType(type)}>
+        {type}
+      </button>
+    </div>
   ));
 
   // Default will display all projects unless type is clicked. Then component will rerender with the new given type
@@ -47,10 +45,10 @@ function Projects() {
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center text-center mt-10"
+      className="min-h-screen flex flex-col items-center text-center mt-10 py-[2rem]"
       id="projects"
     >
-      <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly animate-hide">
+      <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly animate-hide mb-3">
         {uiTypes}
       </div>
       <div className="projects">{allWorks}</div>

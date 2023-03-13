@@ -28,14 +28,16 @@ a:hover {
   height: 35px;
 }
 
-.project-type:hover {
-  color: rgb(125, 92, 179);
-  cursor: pointer;
-}
-
 nav > a {
   margin: 0 3rem;
 }
+
+/* Main styles */
+
+.project-type button:hover {
+  color: #7d5cb3;
+}
+
 .contact {
   border: 1px solid black;
   border-radius: 5px;
@@ -124,4 +126,14 @@ form button:hover {
 
 .animate-show {
   opacity: 1;
+}
+
+.socials a:hover {
+  color: rgb(125, 92, 179);
+  cursor: pointer;
+  transform: translateY(-1rem);
+}
+
+.socials a {
+  transition: all 0.5s ease-in-out;
 }
