@@ -34,6 +34,17 @@ export default [
   },
   {
     id: 4,
+    name: 'Tenzies',
+    tag: 'Personal',
+    img: './projectImages/tenzies.PNG',
+    shortDescription:
+      'A Tenzies game using React to practice component architecture, state management, and event handling. Roll dice to match numbers on a scorecard and score points with combinations. Improve frontend skills while learning JS concepts like random number generation and array manipulation.',
+    tools: ['JSX', 'TailwindCSS', 'React.js'],
+    link: 'https://snowdevnoa.github.io/Tenzies/',
+    visible: true,
+  },
+  {
+    id: 5,
     name: 'Weather App',
     tag: 'Personal',
     img: './projectImages/weather.PNG',
@@ -44,7 +55,7 @@ export default [
     visible: true,
   },
   {
-    id: 5,
+    id: 6,
     name: 'Simple Form Validation',
     tag: 'Personal',
     img: './projectImages/form-validation.PNG',
@@ -55,7 +66,7 @@ export default [
     visible: true,
   },
   {
-    id: 6,
+    id: 7,
     name: 'Number Guesser Game',
     tag: 'Personal',
     img: './projectImages/number-guesser.PNG',
@@ -66,7 +77,7 @@ export default [
     visible: true,
   },
   {
-    id: 7,
+    id: 8,
     name: 'Rick & Morty Universe Finder',
     tag: 'Personal',
     img: './projectImages/rick-morty.PNG',
