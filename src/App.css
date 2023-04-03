@@ -34,6 +34,18 @@ nav > a {
 
 /* Main styles */
 
+.text-gradient {
+  background-image: linear-gradient(
+    90deg,
+    rgb(58, 46, 139),
+    rgb(125, 92, 179),
+    rgb(212, 209, 244)
+  );
+  background-clip: text;
+  --webkit-background-clip: text;
+  color: transparent;
+}
+
 .project-type button:hover {
   color: #7d5cb3;
 }
@@ -47,9 +59,10 @@ nav > a {
 
 .contact:hover {
   background: linear-gradient(
-    to left,
-    rgba(125, 92, 179, 0.673),
-    rgba(41, 25, 144, 0.595)
+    90deg,
+    rgb(58, 46, 139),
+    rgb(125, 92, 179),
+    rgb(212, 209, 244)
   );
   color: white;
   border: 1px solid white;
@@ -101,9 +114,9 @@ form label {
 form button[type='submit'] {
   margin-top: 1rem;
   background: linear-gradient(
-    to left,
-    rgba(125, 92, 179, 0.673),
-    rgba(41, 25, 144, 0.595)
+    90deg,
+    rgba(37, 25, 117, 0.804),
+    rgba(111, 79, 162, 0.564)
   );
   color: white;
   padding: 5px 7px;
@@ -112,9 +125,9 @@ form button[type='submit'] {
 
 form button:hover {
   background: linear-gradient(
-    to left,
-    rgba(111, 79, 162, 0.564),
-    rgba(37, 25, 117, 0.804)
+    90deg,
+    rgba(37, 25, 117, 0.926),
+    rgba(111, 79, 162, 0.799)
   );
 }
 
