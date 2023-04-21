@@ -2,6 +2,7 @@ import { useState } from 'react';
 import data from './data.js';
 import Project from './Project.jsx';
 import { PROJECT_TYPES } from './constants.js';
+import Container from './Container.jsx';
 
 function Projects() {
   // To display the four main types of projects
@@ -44,15 +45,17 @@ function Projects() {
   }
 
   return (
-    <div
-      className="min-h-screen flex flex-col items-center text-center mt-10 py-[2rem]"
-      id="projects"
-    >
-      <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly animate-hide mb-3">
-        {uiTypes}
+    <Container>
+      <div
+        className="min-h-screen flex flex-col items-center text-center mt-10 py-[2rem]"
+        id="projects"
+      >
+        <div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap md:justify-evenly animate-hide mb-3">
+          {uiTypes}
+        </div>
+        <div className="projects">{allWorks}</div>
       </div>
-      <div className="projects">{allWorks}</div>
-    </div>
+    </Container>
   );
 }
 
