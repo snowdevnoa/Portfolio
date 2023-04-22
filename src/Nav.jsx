@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import logo from './assets/logo.svg';
 
 function Navbar() {
   const [miniMenu, setMiniMenu] = useState(false);
   let hamburgerMenu = (
-    <div className="absolute md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-around text-center mini-menu">
+    <div className="absolute md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-evenly text-center mini-menu">
       <a onClick={() => scrollToSection('contact')} className="contact">
         say hello!
       </a>
@@ -23,9 +24,14 @@ function Navbar() {
   }
 
   return (
-    <header className="w-full sticky">
-      <nav className="max-w-[1400px] mx-auto py-5 px-[2rem] flex flex-col items-end md:flex-row md:justify-end md:pr-0 z-10">
-        <img src="" alt="logo" className="mr-[auto] hidden md:block" />
+    <header className="w-full sticky top-0 md:top-unset  z-10">
+      <nav className="max-w-[1400px] mx-auto py-5 px-[2rem] flex flex-col items-end md:flex-row md:justify-end md:pr-0">
+        <img
+          src={logo}
+          alt="logo"
+          className="mr-[auto] hidden md:block h-[3rem]"
+        />
+
         <a className="hidden md:block" onClick={() => scrollToSection('home')}>
           HOME
         </a>
