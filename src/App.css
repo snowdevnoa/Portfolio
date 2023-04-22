@@ -58,6 +58,7 @@ nav > a {
 }
 
 .contact:hover {
+  transform: scale(1.1);
   background: linear-gradient(
     90deg,
     rgb(58, 46, 139),
@@ -66,7 +67,7 @@ nav > a {
   );
   color: white;
   border: 1px solid white;
-  animation: ease-in-out;
+  animation: ease-in;
 }
 /* Grid style for Projects' section */
 
