@@ -5,7 +5,7 @@ export default [
     tag: 'Design',
     img: './projectImages/nuvioo.PNG',
     shortDescription:
-      'Welcome to the Mini Travel Journal! A simple React app that helps users keep track of their travels and memories. Practices with passings props between components.',
+      'Nuvioo is a Platform as a Service (PaaS) designed to empower small businesses with an array of essential software solutions under one roof, leveraging cutting-edge technology at an affordable cost. As a UI/UX designer within the agile development environment, I collaborate closely with cross-functional teams to craft intuitive user experiences.',
     tools: ['Figma', 'Blender', 'Amazon Web Services (AWS)', 'Express.js'],
     link: 'https://nuvioo.com/',
     visible: true,
@@ -16,7 +16,7 @@ export default [
     tag: 'Open Source',
     img: './projectImages/olcomics.PNG',
     shortDescription:
-      'Welcome to the Mini Travel Journal! A simple React app that helps users keep track of their travels and memories. Practices with passings props between components.',
+      "Outer Limits Comics, a comic book haven nestled in Franklin, Tennessee, entrusted me with enhancing their online presence. By meticulously refining the website's source code and design elements, I ensured responsiveness across devices while maintaining the essence of their brand. ",
     tools: ['HTML/CSS', 'JS', 'Shopify'],
     link: 'https://olcomics.com/',
     visible: true,

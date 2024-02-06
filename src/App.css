@@ -170,7 +170,5 @@ form button:hover {
 }
 
 .socials a svg#instagram:hover {
-  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #baaad3;
 }

@@ -53,7 +53,7 @@ function Bio() {
             </a>
           </div>
         </div>
-        <div className="flex flex-col justify-center px-10 text-center md:w-3/5 md:px-0 md:text-left text-base">
+        <div className="flex flex-col justify-center px-10 text-left md:w-3/5 md:mt-7 md:px-0 md:text-left text-base">
           <p>
             Hi there, I'm Noa! As a front-end developer, I'm passionate about
             building engaging web applications that help solve real-world
