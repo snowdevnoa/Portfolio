@@ -1,6 +1,28 @@
 export default [
   {
     id: 1,
+    name: 'Nuvioo',
+    tag: 'Design',
+    img: './projectImages/nuvioo.PNG',
+    shortDescription:
+      'Welcome to the Mini Travel Journal! A simple React app that helps users keep track of their travels and memories. Practices with passings props between components.',
+    tools: ['Figma', 'Blender', 'Amazon Web Services (AWS)', 'Express.js'],
+    link: 'https://nuvioo.com/',
+    visible: true,
+  },
+  {
+    id: 2,
+    name: 'Outer Limits Comics',
+    tag: 'Open Source',
+    img: './projectImages/olcomics.PNG',
+    shortDescription:
+      'Welcome to the Mini Travel Journal! A simple React app that helps users keep track of their travels and memories. Practices with passings props between components.',
+    tools: ['HTML/CSS', 'JS', 'Shopify'],
+    link: 'https://olcomics.com/',
+    visible: true,
+  },
+  {
+    id: 3,
     name: 'Mini Travel Journal',
     tag: 'Personal',
     img: './projectImages/travel-journal.PNG',
@@ -11,7 +33,7 @@ export default [
     visible: true,
   },
   {
-    id: 2,
+    id: 4,
     name: 'Airbnb Experiences',
     tag: 'Personal',
     img: './projectImages/airbnb-experiences.PNG',
@@ -22,7 +44,7 @@ export default [
     visible: true,
   },
   {
-    id: 3,
+    id: 5,
     name: 'Arafa Tech',
     tag: 'Open Source',
     img: './projectImages/arafa-tech.PNG',
@@ -33,7 +55,7 @@ export default [
     visible: true,
   },
   {
-    id: 4,
+    id: 6,
     name: 'Tenzies',
     tag: 'Personal',
     img: './projectImages/tenzies.PNG',
@@ -44,7 +66,7 @@ export default [
     visible: true,
   },
   {
-    id: 5,
+    id: 7,
     name: 'Weather App',
     tag: 'Personal',
     img: './projectImages/weather.PNG',
@@ -55,7 +77,7 @@ export default [
     visible: true,
   },
   {
-    id: 6,
+    id: 8,
     name: 'Simple Form Validation',
     tag: 'Personal',
     img: './projectImages/form-validation.PNG',
@@ -66,7 +88,7 @@ export default [
     visible: true,
   },
   {
-    id: 7,
+    id: 9,
     name: 'Number Guesser Game',
     tag: 'Personal',
     img: './projectImages/number-guesser.PNG',
@@ -77,7 +99,7 @@ export default [
     visible: true,
   },
   {
-    id: 8,
+    id: 10,
     name: 'Rick & Morty Universe Finder',
     tag: 'Personal',
     img: './projectImages/rick-morty.PNG',

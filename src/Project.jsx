@@ -23,7 +23,7 @@ function Project(props) {
   };
 
   const contentStyles = {
-    backgroundColor: isHovered ? 'rgba(26, 29, 33, 0.5)' : 'transparent',
+    backgroundColor: isHovered ? 'rgba(26, 29, 33, 0.7)' : 'transparent',
     color: 'white',
     borderRadius: '10px',
   };

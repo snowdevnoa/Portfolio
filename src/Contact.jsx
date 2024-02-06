@@ -40,7 +40,9 @@ export default function Contact() {
       >
         <div className="flex flex-col items-center justify-center md:w-1/2">
           <h1 className="text-[3rem]">LET'S CONNECT!</h1>
-          <p className="mt-[2rem]">I'm a people person, not a predator :)</p>
+          <p className="mt-[2rem]">
+            Here's some hot chocolate to keep you warm :)
+          </p>
         </div>
         {formData.completed ? (
           <div className="md:w-1/2 text-center w-[500px] p-[2.5rem] mt-[-11rem] md:mt-0 md:w-1/2">
