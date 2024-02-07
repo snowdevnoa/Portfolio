@@ -13,9 +13,10 @@ nav a {
   font-size: 1.3rem;
 }
 
-nav a:hover {
+nav a:not(.contact):hover {
   color: rgb(125, 92, 179);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .mini-menu a {
@@ -50,6 +51,7 @@ nav > a {
 }
 
 .project-type button:hover {
+  text-decoration: underline;
   color: #7d5cb3;
 }
 
@@ -71,6 +73,7 @@ nav > a {
   color: white;
   border: 1px solid white;
   animation: ease-in;
+  cursor: pointer;
 }
 /* Grid style for Projects' section */
 
@@ -133,20 +136,24 @@ form button[type='submit'] {
   border-radius: 5px;
   height: 50px;
   font-size: 1.25rem;
+  transition: ease-in-out 1s;
+  width: 200px;
 }
 
 form button:hover {
   background: linear-gradient(
     90deg,
     rgba(37, 25, 117, 0.926),
-    rgba(111, 79, 162, 0.799)
+    rgba(41, 16, 81, 0.799)
   );
+  width: 100%;
+  transition: ease-in-out 1s;
 }
 
 /* Animations */
 .animate-hide {
   opacity: 0;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 
 .animate-show {
