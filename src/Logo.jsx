@@ -1,0 +1,210 @@
+export default function Logo() {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 537 457"
+			alt="logo"
+			className="mr-[auto] hidden md:block h-[3rem]"
+			id="logo"
+		>
+			<title>logo</title>
+			<g
+				id="Layer_2"
+				data-name="Layer 2"
+			>
+				
+				<g
+					id="Layer_1-2"
+					data-name="Layer 1"
+				>
+
+					{/* Bottom of laptop */}
+					<path
+						d="M153.5,393.5c30-45,315,45,360,0s0,60,0,60h-360S123.5,438.5,153.5,393.5Z"
+						stroke="#000"
+						strokeWidth="7"
+						strokeLinecap="round"
+						strokeMiterlimit="10"
+						fill="none"
+					/>
+					{/* Top of laptop */}
+					<polygon
+						points="168.5 362.14 58.5 18.5 3.5 34.86 113.5 378.5 168.5 362.14"
+						stroke="#000"
+						strokeWidth="7"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+					/>
+
+				
+					{/* snowglobe */}
+					<circle
+						cx="333.5"
+						cy="183.5"
+						r="180"
+						stroke="#000"
+						strokeWidth="7"
+						strokeLinecap="round"
+						strokeMiterlimit="10"
+						fill="none"
+						className="snowglobe"
+					/>
+					<line
+						x1="333.5"
+						y1="63.5"
+						x2="333.5"
+						y2="303.5"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeMiterlimit="10"
+						fill="none"
+						className="snowglobe"
+					/>
+					<line
+						x1="430.04"
+						y1="115.9"
+						x2="236.96"
+						y2="251.1"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeMiterlimit="10"
+						fill="none"
+						className="snowglobe"
+					/>
+					<line
+						x1="430.04"
+						y1="251.1"
+						x2="236.96"
+						y2="115.9"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeMiterlimit="10"
+						fill="none"
+						className="snowglobe"
+					/>
+					<polygon
+						points="333.5 243.5 348.5 198.5 393.5 183.5 348.5 168.5 333.5 123.5 318.5 168.5 273.5 183.5 318.5 198.5 333.5 243.5"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M288.5,108.5c0,33.16-20.13,60-45,60"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M258.5,108.5a30,30,0,0,1-30,30"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M378.5,108.5c0,33.16,20.13,60,45,60"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M408.5,108.5c0,16.58,6.71,30,15,30"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M378.5,258.5c0-33.16,20.13-60,45-60"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M288.5,258.5c0-33.16-20.13-60-45-60"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M258.5,258.5a30,30,0,0,0-30-30"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<path
+						d="M408.5,258.5a30,30,0,0,1,30-30"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<polyline
+						points="303.5 93.5 333.5 108.5 363.5 93.5"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<polyline
+						points="363.5 273.5 333.5 258.5 303.5 273.5"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<polyline
+						points="318.5 63.5 333.5 78.5 348.5 63.5"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+					<polyline
+						points="318.5 303.5 333.5 288.5 348.5 303.5"
+						stroke="#000"
+						strokeWidth="3"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						fill="none"
+						className="snowglobe"
+					/>
+				</g>
+			</g>
+		</svg>
+	);
+}

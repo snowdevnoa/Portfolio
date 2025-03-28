@@ -8,7 +8,7 @@ function Projects() {
 	// To display the four main types of projects
 	const uiTypes = PROJECT_TYPES.map((type) => (
 		<div
-			className="mb-10 w-full md:w-1/2 lg:w-1/4 project-type"
+			className="mb-10 w-full md:w-1/2 lg:w-1/4 project-type items-center"
 			key={type}
 		>
 			<button onClick={() => displayProjectType(type)}>{type}</button>
@@ -51,7 +51,7 @@ function Projects() {
 				className="min-h-screen flex flex-col items-center text-center mt-10"
 				id="projects"
 			>
-				<div className="w-full text-xl flex flex-col items-center md:flex-row md:flex-wrap mt-[4rem] md:mt-[8rem] md:justify-evenly animate-hide mb-3">
+				<div className="w-full min-h-[100px] text-xl flex flex-col items-center md:flex-row md:flex-wrap mt-[4rem] md:mt-[8rem] md:justify-evenly animate-hide mb-3">
 					{uiTypes}
 				</div>
 				<div className="projects">{allWorks}</div>

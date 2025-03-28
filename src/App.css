@@ -36,6 +36,10 @@ nav > a:not(.contact) {
 	min-width: 150px;
 }
 
+#logo {
+	height: 50px;
+}
+
 /* Main styles */
 
 .text-gradient {
@@ -51,9 +55,13 @@ nav > a:not(.contact) {
 }
 
 .project-type button:hover {
-	text-decoration: underline;
-	color: #7d5cb3;
+	font-weight: 300;
+	color: white;
+	background-color: #7d5cb3;
+	border-radius: 1rem;
+	padding: 0.25rem 0.5rem;
 }
+
 
 .contact {
 	border: 2px solid black;
@@ -178,4 +186,43 @@ form button:hover {
 
 .socials a svg#instagram:hover {
 	color: #baaad3;
+}
+
+.snowglobe {
+	animation-name: color-change, spin;
+	animation-duration: 1.75s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: paused;
+	animation-direction: normal;
+	transform-origin: 333.5px 183.5px;
+	animation-timing-function: linear;
+}
+
+#logo:hover .snowglobe {
+	animation-play-state: running;
+}
+
+@keyframes color-change {
+	0% {
+		stroke: rgb(9, 33, 66);
+	}
+	25% {
+		stroke: rgb(34, 76, 130);
+	}
+	50% {
+		stroke: rgb(62, 120, 195);
+	}
+	75% {
+		stroke: rgb(92, 163, 255);
+	}
+	100% {
+		stroke: rgb(120, 177, 251);
+	}
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
 }

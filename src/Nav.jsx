@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from './assets/logo.svg';
+import Logo from './Logo';
 
 function Navbar() {
 	const [miniMenu, setMiniMenu] = useState(false);
@@ -29,12 +29,7 @@ function Navbar() {
 	return (
 		<header className="w-full sticky top-0 md:top-unset z-10 bg-[#fbfbfb]">
 			<nav className="max-w-[1400px] mx-auto py-5 px-[2rem] flex flex-col items-end md:flex-row md:justify-end md:px-unset">
-				<img
-					src={logo}
-					alt="logo"
-					className="mr-[auto] hidden md:block h-[3rem]"
-				/>
-
+				<Logo />
 				<a
 					className="hidden md:block"
 					onClick={() => scrollToSection('home')}
