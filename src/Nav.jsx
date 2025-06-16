@@ -4,7 +4,7 @@ import Logo from './Logo';
 function Navbar() {
 	const [miniMenu, setMiniMenu] = useState(false);
 	let hamburgerMenu = (
-		<div className="absolute md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-evenly text-center mini-menu">
+		<div className="absolute min-w-[150px] md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-evenly text-center mini-menu sliding-menu">
 			<a
 				onClick={() => scrollToSection('contact')}
 				className="contact"

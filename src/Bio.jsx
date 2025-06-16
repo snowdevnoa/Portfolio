@@ -65,23 +65,24 @@ function Bio() {
 				<div className="flex flex-col justify-center px-10 text-left md:w-3/5 md:mt-7 md:px-0 md:text-left text-base">
 					<p>Hi! I'm your friendly neighborhood programmer, Noa! ❄️</p>
 					<p className="mt-4">
-						As a front-end developer, I love bringing ideas to life through
-						interactive and engaging web applications. Whether I'm designing
-						sleek user interfaces, working with APIs, or fine-tuning
-						performance, I always strive to create experiences that are both
-						beautiful and functional.
+						I’m a software engineering student with a passion for front-end
+						development, DevOps, and thoughtful, user-centered design. I love
+						crafting beautiful and intuitive interfaces using modern frameworks
+						like React, Next.js, and TailwindCSS—while also digging into DevOps
+						workflows with Docker, CI/CD, and AWS to keep everything fast,
+						scalable, and reliable.
 					</p>
 					<p className="mt-4">
-						What excites me most about front-end development is the perfect mix
-						of creativity and problem-solving. I get to craft intuitive designs,
-						write clean code, and build solutions that make people’s lives
-						easier—one pixel at a time.
+						My journey started in UI/UX and creative design, but my curiosity
+						naturally pulled me toward full-stack engineering and systems
+						thinking. Whether I’m prototyping in Figma or deploying cloud-native
+						apps, I see engineering as both an art and a science.
 					</p>
 					<p className="mt-4">
-						When I’m not coding, you’ll probably find me sketching new character
-						designs, getting lost in a sci-fi or fantasy novel, or hitting the
-						open road on my motorcycle. I'm always looking for new challenges
-						and opportunities to grow, so let’s connect and build something
+						Outside of code, you’ll probably find me sketching character
+						designs, reading sci-fi and fantasy novels, or cruising on my
+						motorcycle. I’m always looking for new challenges, meaningful
+						projects, and great collaborators—let’s connect and build something
 						awesome together! 🚀
 					</p>
 				</div>
