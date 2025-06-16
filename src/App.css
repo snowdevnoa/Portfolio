@@ -8,6 +8,16 @@
 	font-weight: 300;
 }
 
+/* Variable styles */
+:root{
+	--blue-300: rgb(120, 177, 251);
+	--blue-500: rgb(62, 120, 195);
+	--blue-700: rgb(34, 76, 130);
+	--blue-900: rgb(9, 33, 66);
+
+
+}
+
 /* Nav styles */
 nav a {
 	font-size: 1.3rem;
@@ -45,9 +55,9 @@ nav > a:not(.contact) {
 .text-gradient {
 	background-image: linear-gradient(
 		90deg,
-		rgb(58, 46, 139),
-		rgb(125, 92, 179),
-		rgb(212, 209, 244)
+		var(--blue-500),
+		var(--blue-700),
+		var(--blue-900)
 	);
 	background-clip: text;
 	--webkit-background-clip: text;
@@ -57,14 +67,14 @@ nav > a:not(.contact) {
 .project-type button:hover {
 	font-weight: 300;
 	color: white;
-	background-color: #7d5cb3;
+	background-color: var(--blue-500);
 	border-radius: 1rem;
 	padding: 0.25rem 0.5rem;
 }
 
 .contact {
 	border: 2px solid black;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	padding: 0.5rem 1rem;
 	transition: all 1s;
 }
@@ -73,9 +83,9 @@ nav > a:not(.contact) {
 	transform: scale(1.1);
 	background: linear-gradient(
 		90deg,
-		rgb(58, 46, 139),
-		rgb(125, 92, 179),
-		rgb(212, 209, 244)
+		var(--blue-300),
+		var(--blue-500),
+		var(--blue-700)
 	);
 	color: white;
 	border: 1px solid white;
@@ -111,7 +121,7 @@ form > input,
 textarea {
 	border: black 1.5px solid;
 	background-color: white;
-	border-radius: 0.25rem;
+	border-radius: 1rem;
 	padding: 2px 7px;
 }
 
@@ -135,8 +145,8 @@ form button[type='submit'] {
 	margin-top: 1rem;
 	background: linear-gradient(
 		90deg,
-		rgba(37, 25, 117, 0.804),
-		rgba(111, 79, 162, 0.564)
+		var(--blue-500),
+		var(--blue-700)
 	);
 	color: white;
 	padding: 5px 7px;
@@ -145,13 +155,14 @@ form button[type='submit'] {
 	font-size: 1.25rem;
 	transition: ease-in-out 1s;
 	width: 200px;
+	border-radius: 3rem;
 }
 
 form button:hover {
 	background: linear-gradient(
 		90deg,
-		rgba(37, 25, 117, 0.926),
-		rgba(41, 16, 81, 0.799)
+		var(--blue-700),
+		var(--blue-900)
 	);
 	width: 100%;
 	transition: ease-in-out 1s;
@@ -177,7 +188,7 @@ form button:hover {
 }
 
 .socials a svg#github:hover {
-	color: #7d5cb3;
+	color: var(--blue-300);
 }
 .socials a svg#linkedin:hover {
 	color: rgb(10, 102, 194);
