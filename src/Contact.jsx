@@ -36,16 +36,16 @@ export default function Contact() {
     <Container>
       <div
         id="contact"
-        className="min-h-screen flex justify-center items-center flex-wrap animate-hide"
+        className="min-h-screen flex justify-center items-center flex-wrap animate-hide mt-[7rem] md:mt-0"
       >
-        <div className="flex flex-col items-center justify-center md:w-1/2">
-          <h1 className="text-[3rem]">LET'S CONNECT!</h1>
+        <div className="flex flex-col items-center justify-center md:w-1/2 text-center p-[1rem]">
+          <h1 className="text-[3rem] leading-[3rem]">LET'S CONNECT!</h1>
           <p className="mt-[2rem]">
             Here's some hot chocolate to keep you warm :)
           </p>
         </div>
         {formData.completed ? (
-          <div className="md:w-1/2 text-center w-[500px] p-[2.5rem] mt-[-11rem] md:mt-0 md:w-1/2">
+          <div className="md:w-1/2 text-center w-[500px] p-[2.5rem] md:mt-0 md:w-1/2">
             <h1 className="text-[2rem] leading-[1]">
               Thank you for connecting with me, talk to you soon!
             </h1>
@@ -53,7 +53,7 @@ export default function Contact() {
         ) : (
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col w-[500px] p-[2.5rem] mt-[-11rem] md:mt-0 md:w-1/2"
+            className="flex flex-col w-[500px] p-[2.5rem] md:mt-0 md:w-1/2"
           >
             <label htmlFor="name">Name:</label>
             <input
