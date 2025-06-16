@@ -167,15 +167,10 @@ form button:hover {
 }
 
 /* Animations */
-.animate-hide {
-	opacity: 0;
-	transition: ease-in-out 0.5s;
+.intro span {
+	display: inline-block;
+	will-change: transform;
 }
-
-.animate-show {
-	opacity: 1;
-}
-
 .socials a:hover {
 	cursor: pointer;
 	transform: translateY(-1rem);
