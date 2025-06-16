@@ -4,10 +4,10 @@ import Logo from './Logo';
 function Navbar() {
 	const [miniMenu, setMiniMenu] = useState(false);
 	let hamburgerMenu = (
-		<div className="absolute min-w-[150px] md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-evenly text-center mini-menu sliding-menu">
+		<div className="absolute min-w-[150px] text-white md:text-black md:hidden flex flex-col mr-20px text-[2rem] h-screen justify-evenly text-center mini-menu sliding-menu">
 			<a
 				onClick={() => scrollToSection('contact')}
-				className="contact"
+				className="contact border-white"
 			>
 				say hello!
 			</a>
@@ -63,6 +63,7 @@ function Navbar() {
 				>
 					<path
 						fill="#231F20"
+						className={miniMenu ? "fill-white" : "fill-black"}
 						d="M8.667 15h30a1 1 0 100-2h-30a1 1 0 100 2zM8.667 37h30a1 1 0 100-2h-30a1 1 0 100 2zM8.667 26h30a1 1 0 100-2h-30a1 1 0 100 2z"
 					/>
 				</svg>
