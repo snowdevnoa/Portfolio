@@ -94,7 +94,7 @@ nav a:not(.contact):hover {
 		var(--blue-700)
 	);
 	color: white;
-	border: 1px solid white;
+	border: none;
 	animation: ease-in;
 	cursor: pointer;
 }

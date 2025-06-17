@@ -41,44 +41,9 @@ function Intro() {
 				3D OBJECT IN PROGRESS
 			</div>
 			<div className="w-full md:w-2/5 flex flex-col justify-center items-center">
-				<div className="text-9xl mb-12 text-gradient">NOA</div>
+				<div className="text-9xl mb-12"><span>N</span><span>O</span><span>A</span></div>
 				<h3 className="px-10 text-center tracking-[0.25rem]">
-					<span>D</span>
-					<span>e</span>
-					<span>v</span>
-					<span>e</span>
-					<span>l</span>
-					<span>o</span>
-					<span>p</span>
-					<span>e</span>
-					<span>r</span>
-					<span>, </span>
-					<span> </span>
-					<span>D</span>
-					<span>e</span>
-					<span>s</span>
-					<span>i</span>
-					<span>g</span>
-					<span>n</span>
-					<span>e</span>
-					<span>r</span>
-					<span>,</span>
-					<span> </span>
-					<span>J</span>
-					<span>a</span>
-					<span>z</span>
-					<span>z</span>
-					<span> </span>
-					<span>E</span>
-					<span>n</span>
-					<span>t</span>
-					<span>h</span>
-					<span>u</span>
-					<span>s</span>
-					<span>i</span>
-					<span>a</span>
-					<span>s</span>
-					<span>t</span>
+					Developer, Designer, Jazz Enthusiast
 				</h3>
 			</div>
 		</div>
