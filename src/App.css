@@ -79,6 +79,7 @@ nav a:not(.contact):hover {
 }
 
 .contact {
+	max-width: 150px;
 	border: 2px solid black;
 	border-radius: 2rem;
 	padding: 0.5rem 1rem;
